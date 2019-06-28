@@ -18,23 +18,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="14" />
+          <entry key="go" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="14" />
+          <entry key="Go" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="go" value="171" />
+          <entry key="go" value="174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="171" />
+          <entry key="Go" value="174" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
@@ -43,7 +43,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GM/server/eventHandler/eventHandler.go">
+        <entry file="file://$PROJECT_DIR$/gm/server/eventHandler/eventHandler.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -52,9 +52,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GM/server/connectHandler/connectHandler.go">
+        <entry file="file://$PROJECT_DIR$/gm/server/connectHandler/connectHandler.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
+            <state relative-caret-position="125">
               <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding>
                 <element signature="e#30#136#0" expanded="true" />
@@ -64,14 +64,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Common/tcp/baseClient.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-429" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GM/client/eventHandler/eventHandler_001.go">
+        <entry file="file://$PROJECT_DIR$/gm/client/eventHandler/eventHandler_001.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
               <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
@@ -83,7 +76,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GM/client/eventHandler/eventHandler.go">
+        <entry file="file://$PROJECT_DIR$/gm/client/eventHandler/eventHandler.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
@@ -92,31 +85,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GM/client/connectHandler/connectHandler.go">
+        <entry file="file://$PROJECT_DIR$/gm/client/connectHandler/connectHandler.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="450">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#30#120#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Common/tcp/interface.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Common/tcp/baseServer.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="871">
-              <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -133,11 +108,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GM/server/eventHandler/eventHandler_001.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gm/server/eventHandler/eventHandler_001.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="47" column="57" lean-forward="true" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+            <state relative-caret-position="450">
+              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gm/create/create.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1028">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="e#16#529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gm/sockets/sockets.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gm/loadConfig/loadConfig.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#20#95#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,6 +191,7 @@
         <option value="$PROJECT_DIR$/GM/client/connectHandler/connectHandler.go" />
         <option value="$PROJECT_DIR$/GM/server/eventHandler/eventHandler_001.go" />
         <option value="$PROJECT_DIR$/GM/client/eventHandler/eventHandler_001.go" />
+        <option value="$PROJECT_DIR$/gm/create/create.go" />
       </list>
     </option>
   </component>
@@ -201,6 +206,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -219,47 +227,65 @@
             <path>
               <item name="GeneralManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeneralManager" type="462c0819:PsiDirectoryNode" />
-              <item name="GM" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GeneralManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeneralManager" type="462c0819:PsiDirectoryNode" />
-              <item name="GM" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GeneralManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeneralManager" type="462c0819:PsiDirectoryNode" />
-              <item name="GM" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="connectHandler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GeneralManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeneralManager" type="462c0819:PsiDirectoryNode" />
-              <item name="GM" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="eventHandler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GeneralManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeneralManager" type="462c0819:PsiDirectoryNode" />
-              <item name="GM" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
+              <item name="create" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneralManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneralManager" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
+              <item name="loadConfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneralManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneralManager" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GeneralManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeneralManager" type="462c0819:PsiDirectoryNode" />
-              <item name="GM" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="connectHandler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GeneralManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeneralManager" type="462c0819:PsiDirectoryNode" />
-              <item name="GM" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="eventHandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneralManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneralManager" type="462c0819:PsiDirectoryNode" />
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
+              <item name="sockets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GeneralManager" type="b2602c69:ProjectViewProjectNode" />
@@ -349,7 +375,7 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561706494098" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561707731456" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -363,6 +389,7 @@
       <recent name="C:\Users\koebel0521\go\src\github.com\koebeltw\GeneralManager\GM\Server" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\koebel0521\go\src\github.com\koebeltw\GeneralManager\gm" />
       <recent name="C:\Users\koebel0521\go\src\github.com\koebeltw\GeneralManager\GM" />
     </key>
   </component>
@@ -404,12 +431,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561538454864</updated>
-      <workItem from="1561538456909" duration="14026000" />
+      <workItem from="1561538456909" duration="14913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14026000" />
+    <option name="totallyTimeSpent" value="14913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -420,7 +447,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -430,7 +457,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3995657" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -495,16 +522,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GM/server/eventHandler/eventHandler.go">
+    <entry file="file://$PROJECT_DIR$/gm/server/eventHandler/eventHandler_001.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gm/server/eventHandler/eventHandler.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GM/server/connectHandler/connectHandler.go">
+    <entry file="file://$PROJECT_DIR$/gm/server/connectHandler/connectHandler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
+        <state relative-caret-position="125">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
             <element signature="e#30#136#0" expanded="true" />
@@ -512,7 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GM/client/eventHandler/eventHandler_001.go">
+    <entry file="file://$PROJECT_DIR$/gm/client/eventHandler/eventHandler_001.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
@@ -522,27 +556,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GM/client/eventHandler/eventHandler.go">
+    <entry file="file://$PROJECT_DIR$/gm/client/eventHandler/eventHandler.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GM/client/connectHandler/connectHandler.go">
+    <entry file="file://$PROJECT_DIR$/gm/client/connectHandler/connectHandler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="450">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#30#120#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GM/server/eventHandler/eventHandler_001.go">
+    <entry file="file://$PROJECT_DIR$/gm/sockets/sockets.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gm/loadConfig/loadConfig.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="47" column="57" lean-forward="true" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+        <state relative-caret-position="50">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#20#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gm/create/create.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1028">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#16#529#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
