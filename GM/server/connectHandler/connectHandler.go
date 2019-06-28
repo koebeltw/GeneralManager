@@ -5,16 +5,7 @@ import (
 	"log"
 )
 
-func NewConnectHandler(BaseServer tcp.BaseServer) *ConnectHandler {
-	return &ConnectHandler{
-		Server: BaseServer,
-	}
-}
-
-type ConnectHandler struct {
-	Server tcp.BaseServer
-	Client tcp.BaseClient
-}
+type ConnectHandler struct {}
 
 // OnUserConnect 客戶端連接事件
 func (ser *ConnectHandler) OnUserConnect(s tcp.Session) {
