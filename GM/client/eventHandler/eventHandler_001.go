@@ -6,7 +6,7 @@ import (
 
 // Event001_001 blabla
 func (h EventHandler) Event001Dash001() (tcp.Eventfunc) {
-	return func(session tcp.Session, b []byte) {
+	return func(s tcp.Session, b []byte) {
 
 	}
 }

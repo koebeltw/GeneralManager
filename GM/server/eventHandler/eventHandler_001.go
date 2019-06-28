@@ -13,7 +13,7 @@ type PlayerData struct {
 
 // Event001Dash001 blabla
 func (h EventHandler) Event001Dash001() (tcp.Eventfunc) {
-	return func(session tcp.Session, b []byte) {
+	return func(s tcp.Session, b []byte) {
 		type readData struct {
 			PlayerData
 		}
